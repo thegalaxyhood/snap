@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="overlay"></div>
+      <nav>
+        <div class="left-nav">
+          <p class="logo">
+            <a href="#"><img src="./images/logo.svg" alt="" /></a>
+          </p>
+          <ul class="left-nav-lists">
+            <li class="nav-list-item">
+              <p>
+                <a href="#">Features</a><i class="fa-solid fa-angle-down"></i>
+              </p>
+              <ul class="dropdown">
+                <li>
+                  <span>
+                    <img src="./images/icon-todo.svg" alt="" />
+                  </span>
+                  <p>Todo List</p>
+                </li>
+                <li>
+                  <span>
+                    <img src="./images/icon-calendar.svg" alt="" />
+                  </span>
+                  <p>Calender</p>
+                </li>
+                <li>
+                  <span>
+                    <img src="./images/icon-reminders.svg" alt="" />
+                  </span>
+                  <p>Reminders</p>
+                </li>
+                <li>
+                  <span>
+                    <img src="./images/icon-planning.svg" alt="" />
+                  </span>
+                  <p>Planning</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-list-item">
+              <p>
+                <a href="#">Company</a><i class="fa-solid fa-angle-down"></i>
+              </p>
+              <ul class="dropdown">
+                <li>
+                  <span>History</span>
+                </li>
+                <li>
+                  <span>Our Team</span>
+                </li>
+                <li>
+                  <span>Blog</span>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-list-item">Careers</li>
+            <li class="nav-list-item">About</li>
+          </ul>
+        </div>
+        <div class="right-nav">
+          <ul class="right-nav-lists">
+            <li class="nav-list-item">Login</li>
+            <li class="nav-list-item">Register</li>
+          </ul>
+        </div>
+        <div class="mobile-nav">
+          <div class="nav-open">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="nav-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+
+          <div class="mobile-nav-slide">
+            <ul class="mobile-list-slide">
+              <li class="nav-list-item">
+                <p>
+                  <a href="#">Features</a><i class="fa-solid fa-angle-down"></i>
+                </p>
+                <ul class="mobile-dropdown">
+                  <li>
+                    <span>
+                      <img src="./images/icon-todo.svg" alt="" />
+                    </span>
+                    <p>Todo List</p>
+                  </li>
+                  <li>
+                    <span>
+                      <img src="./images/icon-calendar.svg" alt="" />
+                    </span>
+                    <p>Calender</p>
+                  </li>
+                  <li>
+                    <span>
+                      <img src="./images/icon-reminders.svg" alt="" />
+                    </span>
+                    <p>Reminders</p>
+                  </li>
+                  <li>
+                    <span>
+                      <img src="./images/icon-planning.svg" alt="" />
+                    </span>
+                    <p>Planning</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-list-item">
+                <p>
+                  <a href="#">Company</a><i class="fa-solid fa-angle-down"></i>
+                </p>
+                <ul class="mobile-dropdown">
+                  <li>
+                    <span>History</span>
+                  </li>
+                  <li>
+                    <span>Our Team</span>
+                  </li>
+                  <li>
+                    <span>Blog</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-list-item">Careers</li>
+              <li class="nav-list-item">About</li>
+              <li class="nav-list-item">Login</li>
+              <li class="nav-list-item">Register</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main-section">
+      <div class="hero-text-area">
+        <h1 class="lead-text"><span>Make</span> remote work</h1>
+        <p class="sub-text">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <ul class="clients">
+          <li><img src="./images/client-audiophile.svg" alt="" /></li>
+          <li><img src="./images/client-databiz.svg" alt="" /></li>
+          <li><img src="./images/client-maker.svg" alt="" /></li>
+          <li><img src="./images/client-meet.svg" alt="" /></li>
+        </ul>
+      </div>
+      <div class="hero-image-area"></div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="#">Star, Inc</a>.
+    </div>
+  </body>
+
+  <script defer src="./script.js"></script>
+</html>
